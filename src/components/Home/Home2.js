@@ -1,13 +1,14 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/avatar.png";
 import Tilt from "react-parallax-tilt";
 import {
-  AiFillGithub,
-  AiOutlineTwitter,
+  AiOutlineWhatsApp,
+  AiFillMail,
   AiFillInstagram,
+  AiFillPhone,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import {  } from "react-icons/fa";
 
 function Home2() {
   return (
@@ -24,7 +25,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple"> HTML,CSS,C++, Javascript and FLUTTER. </b>
               </i>
               <br />
               <br />
@@ -67,37 +68,37 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://wa.me/+967779562483"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiFillGithub />
+                  <AiOutlineWhatsApp />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="mailto:forsanfarouk071@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiOutlineTwitter />
+                  <AiFillMail />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="tel:+967776562483"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <FaLinkedinIn />
+                  <AiFillPhone />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/4san_far"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
